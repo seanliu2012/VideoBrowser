@@ -1,13 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Table of Contents
-
-- [Available Scripts](#available-scripts)
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -32,3 +25,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+## Adding Redux
+```
+yarn add redux react-redux
+```
+
+## Adding common folders for Redux
+```
+mkdir actions
+mkdir components
+mkdir reducers
+```
